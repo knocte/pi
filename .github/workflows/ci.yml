@@ -21,7 +21,7 @@ jobs:
       - name: Setup Node.js 22.x
         run: |
           apt update --yes
-          apt install --yes --no-install-recommends npm git sudo
+          apt install --yes npm git sudo
 
       - name: show node version
         run: node --version
