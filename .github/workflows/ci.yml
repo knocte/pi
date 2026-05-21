@@ -23,6 +23,9 @@ jobs:
           apt update --yes
           apt install --yes --no-install-recommends npm git sudo
 
+      - name: show node version
+        run: node --version
+
       - name: Install system dependencies
         run: |
           sudo apt-get update
